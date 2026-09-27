@@ -1,0 +1,224 @@
+{
+ "name": "Chronicle Clash",
+ "level": "World",
+ "slug": "",
+ "url": "explore/",
+ "children": [
+  {
+   "name": "Frostcrown Isles",
+   "level": "Continent",
+   "slug": "frostcrown-isles",
+   "url": "explore/frostcrown-isles/",
+   "children": [
+    {
+     "name": "Skalrime",
+     "level": "Region",
+     "slug": "skalrime",
+     "url": "explore/frostcrown-isles/skalrime/",
+     "children": []
+    },
+    {
+     "name": "Icevein",
+     "level": "Region",
+     "slug": "icevein",
+     "url": "explore/frostcrown-isles/icevein/",
+     "children": []
+    }
+   ]
+  },
+  {
+   "name": "Vharos",
+   "level": "Continent",
+   "slug": "vharos",
+   "url": "explore/vharos/",
+   "children": [
+    {
+     "name": "Thornhollow",
+     "level": "Region",
+     "slug": "thornhollow",
+     "url": "explore/vharos/thornhollow/",
+     "children": []
+    },
+    {
+     "name": "Ravenspire",
+     "level": "Region",
+     "slug": "ravenspire",
+     "url": "explore/vharos/ravenspire/",
+     "children": []
+    },
+    {
+     "name": "Greyfen",
+     "level": "Region",
+     "slug": "greyfen",
+     "url": "explore/vharos/greyfen/",
+     "children": []
+    },
+    {
+     "name": "Ashmoor",
+     "level": "Region",
+     "slug": "ashmoor",
+     "url": "explore/vharos/ashmoor/",
+     "children": []
+    },
+    {
+     "name": "Dread Cay",
+     "level": "Region",
+     "slug": "dread-cay",
+     "url": "explore/vharos/dread-cay/",
+     "children": []
+    }
+   ]
+  },
+  {
+   "name": "Myrath",
+   "level": "Continent",
+   "slug": "myrath",
+   "url": "explore/myrath/",
+   "children": [
+    {
+     "name": "Kestrel Bay",
+     "level": "Region",
+     "slug": "kestrel-bay",
+     "url": "explore/myrath/kestrel-bay/",
+     "children": []
+    },
+    {
+     "name": "Aurelane",
+     "level": "Region",
+     "slug": "aurelane",
+     "url": "explore/myrath/aurelane/",
+     "children": []
+    },
+    {
+     "name": "Stonewake",
+     "level": "Region",
+     "slug": "stonewake",
+     "url": "explore/myrath/stonewake/",
+     "children": []
+    },
+    {
+     "name": "Seabreak",
+     "level": "Region",
+     "slug": "seabreak",
+     "url": "explore/myrath/seabreak/",
+     "children": []
+    },
+    {
+     "name": "Dawnreef",
+     "level": "Region",
+     "slug": "dawnreef",
+     "url": "explore/myrath/dawnreef/",
+     "children": []
+    },
+    {
+     "name": "Goldmere",
+     "level": "Region",
+     "slug": "goldmere",
+     "url": "explore/myrath/goldmere/",
+     "children": []
+    },
+    {
+     "name": "Briar Fork",
+     "level": "Region",
+     "slug": "briar-fork",
+     "url": "explore/myrath/briar-fork/",
+     "children": []
+    }
+   ]
+  },
+  {
+   "name": "Elindor",
+   "level": "Continent",
+   "slug": "elindor",
+   "url": "explore/elindor/",
+   "children": [
+    {
+     "name": "Mistfen",
+     "level": "Region",
+     "slug": "mistfen",
+     "url": "explore/elindor/mistfen/",
+     "children": []
+    },
+    {
+     "name": "Highmere",
+     "level": "Region",
+     "slug": "highmere",
+     "url": "explore/elindor/highmere/",
+     "children": []
+    },
+    {
+     "name": "Larkhollow",
+     "level": "Region",
+     "slug": "larkhollow",
+     "url": "explore/elindor/larkhollow/",
+     "children": []
+    },
+    {
+     "name": "Asterreach",
+     "level": "Region",
+     "slug": "asterreach",
+     "url": "explore/elindor/asterreach/",
+     "children": []
+    },
+    {
+     "name": "Sunreach",
+     "level": "Region",
+     "slug": "sunreach",
+     "url": "explore/elindor/sunreach/",
+     "children": []
+    }
+   ]
+  },
+  {
+   "name": "Solvara",
+   "level": "Continent",
+   "slug": "solvara",
+   "url": "explore/solvara/",
+   "children": [
+    {
+     "name": "Windscar",
+     "level": "Region",
+     "slug": "windscar",
+     "url": "explore/solvara/windscar/",
+     "children": []
+    },
+    {
+     "name": "Dawnrift",
+     "level": "Region",
+     "slug": "dawnrift",
+     "url": "explore/solvara/dawnrift/",
+     "children": []
+    },
+    {
+     "name": "Pearlwatch",
+     "level": "Region",
+     "slug": "pearlwatch",
+     "url": "explore/solvara/pearlwatch/",
+     "children": []
+    }
+   ]
+  },
+  {
+   "name": "Siri Isles",
+   "level": "Continent",
+   "slug": "siri-isles",
+   "url": "explore/siri-isles/",
+   "children": [
+    {
+     "name": "Moonshoal",
+     "level": "Region",
+     "slug": "moonshoal",
+     "url": "explore/siri-isles/moonshoal/",
+     "children": []
+    },
+    {
+     "name": "Siralis",
+     "level": "Region",
+     "slug": "siralis",
+     "url": "explore/siri-isles/siralis/",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

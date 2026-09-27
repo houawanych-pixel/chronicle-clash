@@ -1,0 +1,35 @@
+{
+ "characters": [
+  {
+   "name": "Lance",
+   "slug": "lance",
+   "url": "characters/lance/"
+  },
+  {
+   "name": "Elyza",
+   "slug": "elyza",
+   "url": "characters/elyza/"
+  },
+  {
+   "name": "Lysara",
+   "slug": "lysara",
+   "url": "characters/lysara/",
+   "image": "assets/img/web/characters/character-lysara.webp",
+   "thumb": "assets/img/thumbs/characters/character-lysara.webp",
+   "alt": "Lysara, Chronicle Clash character artwork"
+  },
+  {
+   "name": "Azure Bishop",
+   "slug": "azure-bishop",
+   "url": "characters/azure-bishop/",
+   "image": "assets/img/web/characters/character-azure-bishop.webp",
+   "thumb": "assets/img/thumbs/characters/character-azure-bishop.webp",
+   "alt": "Azure Bishop, Chronicle Clash character artwork"
+  },
+  {
+   "name": "Goliath",
+   "slug": "goliath",
+   "url": "characters/goliath/"
+  }
+ ]
+}

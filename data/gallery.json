@@ -1,0 +1,297 @@
+{
+ "albums": [
+  {
+   "name": "Cards",
+   "slug": "cards",
+   "url": "gallery/cards/",
+   "count": 12,
+   "pages": 1,
+   "items": [
+    {
+     "full": "assets/img/web/cards/card-aerion.webp",
+     "thumb": "assets/img/thumbs/cards/card-aerion.webp",
+     "alt": "Chronicle Clash card art: Aerion (Assist card: Cosmic Lord)",
+     "caption": "Aerion (Assist card: Cosmic Lord)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-elite-vanguard.webp",
+     "thumb": "assets/img/thumbs/cards/card-elite-vanguard.webp",
+     "alt": "Chronicle Clash card art: Elite Vanguard (Card)",
+     "caption": "Elite Vanguard (Card)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-malevorax.webp",
+     "thumb": "assets/img/thumbs/cards/card-malevorax.webp",
+     "alt": "Chronicle Clash card art: Malevorax (Enemy card: Demon)",
+     "caption": "Malevorax (Enemy card: Demon)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-morwenna.webp",
+     "thumb": "assets/img/thumbs/cards/card-morwenna.webp",
+     "alt": "Chronicle Clash card art: Morwenna (Card)",
+     "caption": "Morwenna (Card)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-nyxara.webp",
+     "thumb": "assets/img/thumbs/cards/card-nyxara.webp",
+     "alt": "Chronicle Clash card art: Nyxara (Enemy card: Mystari)",
+     "caption": "Nyxara (Enemy card: Mystari)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-obsidian-dreadknight.webp",
+     "thumb": "assets/img/thumbs/cards/card-obsidian-dreadknight.webp",
+     "alt": "Chronicle Clash card art: Obsidian Dreadknight (Enemy card: Shadow)",
+     "caption": "Obsidian Dreadknight (Enemy card: Shadow)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-reinforcement-nobles.webp",
+     "thumb": "assets/img/thumbs/cards/card-reinforcement-nobles.webp",
+     "alt": "Chronicle Clash card art: Reinforcement Nobles (Card)",
+     "caption": "Reinforcement Nobles (Card)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-rin.webp",
+     "thumb": "assets/img/thumbs/cards/card-rin.webp",
+     "alt": "Chronicle Clash card art: Rin (Assist card: Assassin)",
+     "caption": "Rin (Assist card: Assassin)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-seraphine-assist.webp",
+     "thumb": "assets/img/thumbs/cards/card-seraphine-assist.webp",
+     "alt": "Chronicle Clash card art: Seraphine (Assist card: Dragon Valkyrie)",
+     "caption": "Seraphine (Assist card: Dragon Valkyrie)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/cards/card-soularus.webp",
+     "thumb": "assets/img/thumbs/cards/card-soularus.webp",
+     "alt": "Chronicle Clash card art: Soularus (Enemy card: Angel)",
+     "caption": "Soularus (Enemy card: Angel)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/guardians/guardian-noctharion.webp",
+     "thumb": "assets/img/thumbs/guardians/guardian-noctharion.webp",
+     "alt": "Chronicle Clash card art: Noctharion (Guardian)",
+     "caption": "Noctharion (Guardian)",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/guardians/guardian-sentinel.webp",
+     "thumb": "assets/img/thumbs/guardians/guardian-sentinel.webp",
+     "alt": "Chronicle Clash card art: Sentinel (Guardian: Light Knight Guardian)",
+     "caption": "Sentinel (Guardian: Light Knight Guardian)",
+     "width": 1024,
+     "height": 1536
+    }
+   ]
+  },
+  {
+   "name": "Characters",
+   "slug": "characters",
+   "url": "gallery/characters/",
+   "count": 12,
+   "pages": 1,
+   "items": [
+    {
+     "full": "assets/img/web/characters/character-azure-bishop.webp",
+     "thumb": "assets/img/thumbs/characters/character-azure-bishop.webp",
+     "alt": "Chronicle Clash artwork: Character Azure Bishop",
+     "caption": "Character · Azure Bishop",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/characters/character-lysara.webp",
+     "thumb": "assets/img/thumbs/characters/character-lysara.webp",
+     "alt": "Chronicle Clash artwork: Character Lysara",
+     "caption": "Character · Lysara",
+     "width": 1024,
+     "height": 1536
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-background-npcs-contact-sheet.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-background-npcs-contact-sheet.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Background Npcs Contact Sheet",
+     "caption": "Character · Crownfen Marsh · Background NPCs · Contact Sheet",
+     "width": 1536,
+     "height": 1024
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-back.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-back.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Lotus Keeper Back",
+     "caption": "Character · Crownfen Marsh · Lotus Keeper · Back",
+     "width": 309,
+     "height": 328
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-front.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-front.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Lotus Keeper Front",
+     "caption": "Character · Crownfen Marsh · Lotus Keeper · Front",
+     "width": 366,
+     "height": 328
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-right-side.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-lotus-keeper-right-side.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Lotus Keeper Right Side",
+     "caption": "Character · Crownfen Marsh · Lotus Keeper · Right Side",
+     "width": 316,
+     "height": 328
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-back.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-back.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Marsh Traveler Back",
+     "caption": "Character · Crownfen Marsh · Marsh Traveler · Back",
+     "width": 309,
+     "height": 318
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-front.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-front.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Marsh Traveler Front",
+     "caption": "Character · Crownfen Marsh · Marsh Traveler · Front",
+     "width": 366,
+     "height": 318
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-right-side.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-marsh-traveler-right-side.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Marsh Traveler Right Side",
+     "caption": "Character · Crownfen Marsh · Marsh Traveler · Right Side",
+     "width": 316,
+     "height": 318
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-back.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-back.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Reed Gatherer Back",
+     "caption": "Character · Crownfen Marsh · Reed Gatherer · Back",
+     "width": 309,
+     "height": 287
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-front.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-front.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Reed Gatherer Front",
+     "caption": "Character · Crownfen Marsh · Reed Gatherer · Front",
+     "width": 366,
+     "height": 287
+    },
+    {
+     "full": "assets/img/web/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-right-side.webp",
+     "thumb": "assets/img/thumbs/gallery/characters/crownfen-marsh/character-crownfen-marsh-reed-gatherer-right-side.webp",
+     "alt": "Chronicle Clash artwork: Character Crownfen Marsh Reed Gatherer Right Side",
+     "caption": "Character · Crownfen Marsh · Reed Gatherer · Right Side",
+     "width": 316,
+     "height": 287
+    }
+   ]
+  },
+  {
+   "name": "Key Art",
+   "slug": "key-art",
+   "url": "gallery/key-art/",
+   "count": 1,
+   "pages": 1,
+   "items": [
+    {
+     "full": "assets/img/web/header/header-chronicle-clash-battle-lineup-v1.webp",
+     "thumb": "assets/img/thumbs/header/header-chronicle-clash-battle-lineup-v1.webp",
+     "alt": "Chronicle Clash artwork: Header Chronicle Clash Battle Lineup",
+     "caption": "Battle Lineup Header Concept",
+     "width": 1920,
+     "height": 640
+    }
+   ]
+  },
+  {
+   "name": "Objectives",
+   "slug": "objectives",
+   "url": "gallery/objectives/",
+   "count": 1,
+   "pages": 1,
+   "items": [
+    {
+     "full": "assets/img/web/gallery/objectives/objective-the-high-guard-elindor.webp",
+     "thumb": "assets/img/thumbs/gallery/objectives/objective-the-high-guard-elindor.webp",
+     "alt": "Chronicle Clash artwork: Objective The High Guard Elindor",
+     "caption": "Objective · The High Guard (Elindor)",
+     "width": 1024,
+     "height": 1536
+    }
+   ]
+  },
+  {
+   "name": "Panoramas",
+   "slug": "panoramas",
+   "url": "gallery/panoramas/",
+   "count": 5,
+   "pages": 1,
+   "items": [
+    {
+     "full": "assets/img/web/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-lantern-market-area-3.webp",
+     "thumb": "assets/img/thumbs/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-lantern-market-area-3.webp",
+     "alt": "Chronicle Clash artwork: Panorama Crownfen Marsh Lantern Market Area 3",
+     "caption": "Panorama · Crownfen Marsh · Lantern Market (Area 3)",
+     "width": 1536,
+     "height": 1024
+    },
+    {
+     "full": "assets/img/web/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-mournwillow-gardens-area-5.webp",
+     "thumb": "assets/img/thumbs/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-mournwillow-gardens-area-5.webp",
+     "alt": "Chronicle Clash artwork: Panorama Crownfen Marsh Mournwillow Gardens Area 5",
+     "caption": "Panorama · Crownfen Marsh · Mournwillow Gardens (Area 5)",
+     "width": 1536,
+     "height": 1024
+    },
+    {
+     "full": "assets/img/web/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-reedgate-ward-area-2.webp",
+     "thumb": "assets/img/thumbs/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-reedgate-ward-area-2.webp",
+     "alt": "Chronicle Clash artwork: Panorama Crownfen Marsh Reedgate Ward Area 2",
+     "caption": "Panorama · Crownfen Marsh · Reedgate Ward (Area 2)",
+     "width": 1536,
+     "height": 1024
+    },
+    {
+     "full": "assets/img/web/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-shroudbell-cathedral-area-6.webp",
+     "thumb": "assets/img/thumbs/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-shroudbell-cathedral-area-6.webp",
+     "alt": "Chronicle Clash artwork: Panorama Crownfen Marsh Shroudbell Cathedral Area 6",
+     "caption": "Panorama · Crownfen Marsh · Shroudbell Cathedral (Area 6)",
+     "width": 1536,
+     "height": 1024
+    },
+    {
+     "full": "assets/img/web/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-veilwater-docks-area-4.webp",
+     "thumb": "assets/img/thumbs/gallery/panoramas/crownfen-marsh/panorama-crownfen-marsh-veilwater-docks-area-4.webp",
+     "alt": "Chronicle Clash artwork: Panorama Crownfen Marsh Veilwater Docks Area 4",
+     "caption": "Panorama · Crownfen Marsh · Veilwater Docks (Area 4)",
+     "width": 1536,
+     "height": 1024
+    }
+   ]
+  }
+ ]
+}

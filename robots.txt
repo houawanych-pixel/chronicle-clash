@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://houawanych-pixel.github.io/chronicle-clash/sitemap.xml
