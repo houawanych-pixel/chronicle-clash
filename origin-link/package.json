@@ -1,0 +1,1 @@
+{"name":"chronicle-clash-origin-link-prototype","private":true,"type":"module","version":"0.1.0","scripts":{"test":"node --test tests/core.test.mjs"}}

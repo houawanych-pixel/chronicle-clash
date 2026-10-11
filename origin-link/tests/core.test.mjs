@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {segmentBlocked,moveSafe,chargeTick,consumeCharge,canAuto,canLock,canSee,climbTick} from '../core.js';
+const walls=[{x:0,z:0,w:4,d:1}];
+test('solid cover blocks sight and dash corridors',()=>{assert.equal(segmentBlocked({x:0,z:3},{x:0,z:-3},walls),true);assert.equal(segmentBlocked({x:4,z:3},{x:4,z:-3},walls),false);});
+test('movement cannot tunnel through a wall',()=>{const p={x:0,z:3};moveSafe(p,0,-6,walls);assert.equal(p.z,3);});
+test('charge supports early release, exact six-hit ceiling and LOS reset',()=>{assert.equal(consumeCharge(chargeTick(0,1.2,true)),2);assert.equal(consumeCharge(chargeTick(5.8,10,true)),6);assert.equal(chargeTick(6,.1,false),0);});
+test('auto attack requires range, legal mode and line of sight',()=>{const p={x:0,z:1},e={x:0,z:-1,hp:100};assert.equal(canAuto(p,e,walls,'normal'),false);for(const mode of ['climb','cover','crouch'])assert.equal(canAuto(p,{x:1,z:1,hp:100},[],mode),false);assert.equal(canAuto(p,{x:1,z:1,hp:100},[],'normal'),true);});
+test('lock cannot target dead, distant or occluded enemy',()=>{const p={x:0,z:3};assert.equal(canLock(p,{x:0,z:-3,hp:100},walls),false);assert.equal(canLock(p,{x:0,z:35,hp:100},[]),false);assert.equal(canLock(p,{x:0,z:4,hp:0},[]),false);});
+test('guard respects cover and forward vision cone',()=>{const e={x:0,z:3,heading:Math.PI};assert.equal(canSee(e,{x:0,z:-3},walls,false),false);assert.equal(canSee(e,{x:0,z:8},[],false),false);assert.equal(canSee(e,{x:0,z:-3},[],false),true);});
+test('climbing costs grip and cannot exceed shoulder',()=>{const a=climbTick(8.5,10,1,1,9);assert.equal(a.height,9);assert.equal(a.stamina,2);assert.equal(climbTick(2,1,1,1,9).stamina,0);});
