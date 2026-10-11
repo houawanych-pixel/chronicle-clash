@@ -1,8 +1,11 @@
 import * as T from './vendor/three.module.js';
+import {CanvasRenderer} from './canvas-renderer.js';
 import {BUILD,clamp,distance,segmentBlocked,moveSafe,canLock,chargeTick,consumeCharge,canAuto,canSee,climbTick} from './core.js';
 const $=id=>document.getElementById(id), canvas=$('world');
 let renderer;
-try{renderer=new T.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});}catch(e){$('fatal').hidden=false;$('fatal').textContent='This browser could not start WebGL. Try current Chrome with hardware acceleration enabled.';throw e;}
+try{renderer=new T.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});}catch(e){
+ try{renderer=new CanvasRenderer({canvas});}catch(err){$('fatal').hidden=false;$('fatal').textContent='Graphics are unavailable in this browser. Try current Chrome.';throw err;}
+}
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.2;
 const scene=new T.Scene();scene.background=new T.Color('#a9c7d7');scene.fog=new T.Fog('#adcad8',38,105);
 const camera=new T.PerspectiveCamera(55,innerWidth/innerHeight,.12,180);scene.add(new T.HemisphereLight('#ddf5ff','#65727b',2.3));
@@ -141,7 +144,8 @@ function frame(now){requestAnimationFrame(frame);const dt=Math.min((now-last)/10
  updateCamera(dt);if(started)updateHud();renderer.render(scene,camera);}
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);clearInput();});
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();setPause(true);$('fatal').hidden=false;$('fatal').textContent='Graphics context was interrupted. Reload this page to restart the playtest.';});
+if(renderer.software){$('quality').checked=false;$('quality').disabled=true;document.querySelector('.buildnote').innerHTML+=' <br>Reduced-detail compatibility renderer active.';}
 $('start').disabled=false;$('start').textContent='Enter the courtyard →';updateMission();requestAnimationFrame(frame);
 // Read-only state enables reproducible browser QA; mutation hooks exist only with ?test=1.
-window.originLink={build:BUILD,state:()=>({player:{...player},target:target?enemies.indexOf(target):null,charge,combo:combo?{left:combo.left,total:combo.total}:null,kills,completed:{...completed},climbing:climbing?(climbing.hostile?'hostile':'ally'):null,bossHp:boss.hp,paused,started,allyActive:ally.active,enemies:enemies.map(e=>({x:e.x,z:e.z,hp:e.hp,alert:e.alert})),drawCalls:renderer.info.render.calls})};
+window.originLink={build:BUILD,renderer:renderer.software?'canvas':'webgl',state:()=>({player:{...player},target:target?enemies.indexOf(target):null,charge,combo:combo?{left:combo.left,total:combo.total}:null,kills,completed:{...completed},climbing:climbing?(climbing.hostile?'hostile':'ally'):null,bossHp:boss.hp,paused,started,allyActive:ally.active,enemies:enemies.map(e=>({x:e.x,z:e.z,hp:e.hp,alert:e.alert})),drawCalls:renderer.info.render.calls})};
 if(new URLSearchParams(location.search).get('test')==='1')window.originLink.test={act,reset,place:(x,z,y=0)=>Object.assign(player,{x,z,y}),health:n=>player.hp=n,charge:n=>charge=n,freezeGuards:()=>{for(const e of enemies){e.homeX=e.x;e.homeZ=e.z;}},setEnemy:(i,props)=>Object.assign(enemies[i],props),setPlayer:p=>Object.assign(player,p),setClimbHeight:h=>player.y=h,setTime:t=>elapsed=t};
