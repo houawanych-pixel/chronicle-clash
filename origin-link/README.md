@@ -4,7 +4,7 @@ A standalone third-person mechanics prototype for Chronicle Clash, developed fro
 
 ## Play
 
-Serve the repository with any static HTTP server, then open `/origin-link/`. No bundler, account, backend, or API keys. All runtime dependencies are local. Requires WebGL and JavaScript. Landscape is recommended on phones.
+Serve the repository with any static HTTP server, then open `/origin-link/`. No bundler, account, backend, or API keys. All runtime dependencies are local. Requires JavaScript. Uses WebGL when available, with a reduced-detail Canvas renderer otherwise. Landscape is recommended on phones.
 
 Build identity: `OL-001.20261011` (also exposed as `window.originLink.build`).
 
@@ -41,3 +41,12 @@ Hug cover, release a charged dash, summon the west courtyard Guardian, climb to 
 `?test=1` exposes development-only state setup hooks; ordinary URLs expose read-only diagnostics. This is an offline single-player prototype with no authoritative server state.
 
 Three.js 0.160.1 is vendored in `vendor/` with its MIT license. Application code is kept separate in `game.js` and `core.js`; UI in `index.html` / `style.css`.
+
+## Build 001 verification record
+
+- Seven core rule tests passed.
+- Public URL opened without login and entered gameplay in the cloud browser.
+- Compatibility-renderer scenarios passed progressive charge, two-hit release, six-hit release, cover entry, peek state, and cover exit. On-screen crouch was also checked manually.
+- Summon/climb scenario timed out while waiting for the summon animation in the cloud compatibility renderer; end-to-end climbing is not verified.
+- WebGL rendering, physical phone performance and simultaneous two-finger touch controls remain unverified.
+- `docs/build001-compatibility.jpg` is the actual reduced-detail browser view, not concept art.
