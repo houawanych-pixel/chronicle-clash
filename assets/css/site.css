@@ -40,6 +40,12 @@ h1{font-size:clamp(40px,6vw,76px)}h2{font-size:clamp(30px,4vw,48px)}h3{font-fami
 .button{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--accent);border:1px solid var(--accent);padding:11px 20px;font-size:14px;font-weight:700;color:#111;min-height:44px}
 .button:hover{filter:brightness(1.1)}
 .button.explore{background:transparent;color:#dfe8ff;border-color:var(--accent2)}.button.explore:hover{background:#6f9bf01f;filter:none}
+/* Ready state: add class="ready" to a .button whose target is live (green = ready to go); remove it to fall back to the normal look. Section cards use their existing "ready" class. */
+:root{--ready:#6fcf7f;--ready-ink:#0b1a0f}
+.button.ready{background:var(--ready);border-color:#a6e6b0;color:var(--ready-ink);box-shadow:0 0 16px #6fcf7f3d}
+.button.ready:hover{background:#90e09c;filter:none;box-shadow:0 0 24px #6fcf7f66}.button.ready:focus-visible{outline-color:var(--ready)}
+.button.explore.ready{background:transparent;color:#cdf3d3;border-color:var(--ready);box-shadow:none}.button.explore.ready:hover{background:#6fcf7f1f}
+a.sectioncard.ready .cta{color:var(--ready)}
 .fine{font-size:13px!important}
 
 /* Beta strip — structurally separate from exploration */
